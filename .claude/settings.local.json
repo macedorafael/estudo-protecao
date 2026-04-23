@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npx create-vite@latest . --template react-ts)",
+      "Bash(npm --version)",
+      "Bash(python -m venv backend/.venv)",
+      "Bash(backend/.venv/Scripts/pip install *)",
+      "Bash(backend/.venv/Scripts/python -c ' *)",
+      "Bash(npm install *)",
+      "Bash(backend/.venv/Scripts/uvicorn backend.app.main:app --host 127.0.0.1 --port 8000)",
+      "Bash(npx vite *)",
+      "Bash(curl -s http://localhost:8000/api/health)",
+      "Bash(curl -s http://localhost:5173)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(backend/.venv/Scripts/python gerar_frigosul.py)",
+      "Bash(backend/.venv/Scripts/python.exe -c ' *)",
+      "Bash(start \"\" \"C:\\\\Users\\\\maced\\\\Estudo de Protecao\\\\Teste_FRIGOSUL_v2.pdf\")",
+      "Bash(start \"\" \"C:\\\\Users\\\\maced\\\\Estudo de Protecao\\\\Teste_FRIGOSUL_v3.pdf\")",
+      "Bash(start \"\" \"C:\\\\Users\\\\maced\\\\Estudo de Protecao\\\\Teste_FRIGOSUL_v4.pdf\")",
+      "Bash(start \"\" \"C:\\\\Users\\\\maced\\\\Estudo de Protecao\\\\check_fase.png\")",
+      "Bash(start \"\" \"C:\\\\Users\\\\maced\\\\Estudo de Protecao\\\\check_neutro.png\")",
+      "Bash(start \"\" \"C:\\\\Users\\\\maced\\\\Estudo de Protecao\\\\Teste_FRIGOSUL_v5.pdf\")",
+      "Bash(start \"\" \"C:\\\\Users\\\\maced\\\\Estudo de Protecao\\\\Teste_FRIGOSUL_v6.pdf\")",
+      "Bash(start \"\" \"C:\\\\Users\\\\maced\\\\Estudo de Protecao\\\\Teste_FRIGOSUL_v7.pdf\")",
+      "Bash(start \"\" \"C:\\\\Users\\\\maced\\\\Estudo de Protecao\\\\Teste_FRIGOSUL_v8.pdf\")",
+      "Bash(gh auth *)",
+      "Bash(git --version)",
+      "Bash(git config *)",
+      "Bash(where gh *)",
+      "Bash(where curl *)"
+    ]
+  }
+}

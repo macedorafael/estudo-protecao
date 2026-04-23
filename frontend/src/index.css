@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 font-sans;
+  }
+}
+
+@layer components {
+  .field-label {
+    @apply block text-sm font-medium text-gray-700 mb-1;
+  }
+  .field-input {
+    @apply w-full rounded-md border border-gray-300 px-3 py-2 text-sm shadow-sm
+           focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent
+           disabled:bg-gray-100 disabled:cursor-not-allowed;
+  }
+  .field-input-energisa {
+    @apply field-input border-blue-400 bg-blue-50 focus:ring-energisa;
+  }
+  .section-card {
+    @apply bg-white rounded-xl border border-gray-200 shadow-sm p-6 mb-6;
+  }
+  .section-title {
+    @apply text-base font-bold text-blue-900 mb-4 flex items-center gap-2;
+  }
+  .energisa-badge {
+    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-bold
+           bg-energisa text-white tracking-wide;
+  }
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-blue-700 text-white
+           font-semibold text-sm shadow hover:bg-blue-800 active:bg-blue-900
+           disabled:opacity-50 disabled:cursor-not-allowed transition-colors;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-gray-300
+           bg-white text-gray-700 font-medium text-sm hover:bg-gray-50 transition-colors;
+  }
+  .add-btn {
+    @apply inline-flex items-center gap-1 px-3 py-1.5 rounded-md border border-dashed
+           border-blue-400 text-blue-600 text-sm font-medium hover:bg-blue-50 transition-colors;
+  }
+}

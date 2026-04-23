@@ -1,0 +1,27 @@
+# Python
+backend/.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.env
+
+# PDFs gerados (temporários de teste)
+Teste_*.pdf
+Estudo_*.pdf
+check_*.png
+
+# Node.js
+frontend/node_modules/
+
+# Build do frontend
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
